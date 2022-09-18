@@ -1,19 +1,24 @@
 
-
-
+using Aplicacion.Cursos;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection; 
 using Persistencia;
-
-
-
+using System;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
+
+
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<PostCurso>();
+builder.Services.AddValidatorsFromAssemblyContaining<PutCurso>();
+
+
 builder.Services.AddSwaggerGen();
 
 
@@ -29,12 +34,9 @@ builder.Services.AddMediatR(typeof(Aplicacion.Cursos.PostCurso).Assembly);
 
 
 
+
+
 var app = builder.Build();
-
-
-
-
-
 
 
 if (app.Environment.IsDevelopment())

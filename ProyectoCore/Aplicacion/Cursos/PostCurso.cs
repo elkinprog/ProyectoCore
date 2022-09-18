@@ -1,4 +1,5 @@
 ﻿using Dominio;
+using FluentValidation;
 using MediatR;
 using Persistencia;
 using System;
@@ -14,18 +15,32 @@ namespace Aplicacion.Cursos
 
         public class CrearCurso: IRequest
         {
+            public int      CursoID          { get; set; }
             public string?  Titulo           { get; set; }
             public string?  Descripcion      { get; set; }
             public DateTime FechaPublicacion { get; set; }
             public byte[]?  FotoPortada      { get; set; }
          }
 
+        public class PostValidacion : AbstractValidator<CrearCurso>
+        {
+            public PostValidacion()
+            {
+                RuleFor(x => x.CursoID).NotNull();
+                RuleFor(x => x.Titulo).NotNull().NotEmpty();
+                RuleFor(x => x.Descripcion).NotNull().NotEmpty();
+                RuleFor(x => x.FechaPublicacion).NotEmpty();
+            }
+        }
+
+
+
         public class Manejador : IRequestHandler<CrearCurso>
         {
             private readonly CursosOnlineContext _context;
             public Manejador(CursosOnlineContext context)
             {
-                this._context = context;
+               _context=context;
             }
              async Task<Unit> IRequestHandler<CrearCurso, Unit>.Handle(CrearCurso request, CancellationToken cancellationToken)
              {
@@ -36,8 +51,9 @@ namespace Aplicacion.Cursos
                     FechaPublicacion = request.FechaPublicacion,
                     FotoPortada = request.FotoPortada,
                 };
-                _context.Curso.AddAsync(cursos);
-               var valor = await _context.SaveChangesAsync();
+                await _context.Curso.AddAsync(cursos, cancellationToken);
+
+               var valor = await _context.SaveChangesAsync(cancellationToken);
                 if (valor > 0) 
                 { 
                  return Unit.Value;    
