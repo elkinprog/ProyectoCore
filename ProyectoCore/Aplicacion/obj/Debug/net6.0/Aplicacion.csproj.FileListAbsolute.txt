@@ -1,0 +1,17 @@
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\bin\Debug\net6.0\Aplicacion.deps.json
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\bin\Debug\net6.0\Aplicacion.dll
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\bin\Debug\net6.0\Aplicacion.pdb
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\bin\Debug\net6.0\Dominio.dll
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\bin\Debug\net6.0\Persistencia.dll
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\bin\Debug\net6.0\Dominio.pdb
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\bin\Debug\net6.0\Persistencia.pdb
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\obj\Debug\net6.0\Aplicacion.csproj.AssemblyReference.cache
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\obj\Debug\net6.0\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\obj\Debug\net6.0\Aplicacion.AssemblyInfoInputs.cache
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\obj\Debug\net6.0\Aplicacion.AssemblyInfo.cs
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\obj\Debug\net6.0\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\obj\Debug\net6.0\Aplicacion.csproj.CopyComplete
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\obj\Debug\net6.0\Aplicacion.dll
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\obj\Debug\net6.0\refint\Aplicacion.dll
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\obj\Debug\net6.0\Aplicacion.pdb
+C:\Users\erojas\Documents\ProyectoCore\Aplicacion\obj\Debug\net6.0\ref\Aplicacion.dll
