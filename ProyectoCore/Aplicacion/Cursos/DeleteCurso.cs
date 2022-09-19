@@ -1,8 +1,10 @@
-﻿using MediatR;
+﻿using Aplicacion.ManejadorErrores;
+using MediatR;
 using Persistencia;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -29,7 +31,8 @@ namespace Aplicacion.Cursos
                 var curso = await _context.Curso.FindAsync(request.Id);
                 if(curso == null)
                 {
-                    throw new Exception("No se puede eliminar curdo");
+                    //throw new Exception("No se puede eliminar curdo");
+                    throw new ManejadorExcepciones(HttpStatusCode.NotFound,new {mensaje= "No se encontro el curso" });    
                 }
                 _context.Remove(curso);
 

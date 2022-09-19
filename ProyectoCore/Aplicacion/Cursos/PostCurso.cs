@@ -15,7 +15,6 @@ namespace Aplicacion.Cursos
 
         public class CrearCurso: IRequest
         {
-            public int      CursoID          { get; set; }
             public string?  Titulo           { get; set; }
             public string?  Descripcion      { get; set; }
             public DateTime FechaPublicacion { get; set; }
@@ -26,10 +25,9 @@ namespace Aplicacion.Cursos
         {
             public PostValidacion()
             {
-                RuleFor(x => x.CursoID).NotNull();
-                RuleFor(x => x.Titulo).NotNull().NotEmpty();
-                RuleFor(x => x.Descripcion).NotNull().NotEmpty();
-                RuleFor(x => x.FechaPublicacion).NotEmpty();
+                RuleFor(x => x.Titulo).NotNull();
+                RuleFor(x => x.Descripcion).NotNull();
+                RuleFor(x => x.FechaPublicacion).NotNull();
             }
         }
 
@@ -40,16 +38,16 @@ namespace Aplicacion.Cursos
             private readonly CursosOnlineContext _context;
             public Manejador(CursosOnlineContext context)
             {
-               _context=context;
+               _context = context;
             }
              async Task<Unit> IRequestHandler<CrearCurso, Unit>.Handle(CrearCurso request, CancellationToken cancellationToken)
              {
-                var cursos = new Curso
+                var  cursos = new Curso
                 {
-                    Titulo = request.Titulo,
-                    Descripcion = request.Descripcion,
+                    Titulo           = request.Titulo,
+                    Descripcion      = request.Descripcion,
                     FechaPublicacion = request.FechaPublicacion,
-                    FotoPortada = request.FotoPortada,
+                    FotoPortada      = request.FotoPortada,
                 };
                 await _context.Curso.AddAsync(cursos, cancellationToken);
 

@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Persistencia;
 using System;
 using System.Reflection;
+using WebAPI.Midleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,11 +39,14 @@ builder.Services.AddMediatR(typeof(Aplicacion.Cursos.PostCurso).Assembly);
 
 var app = builder.Build();
 
+app.UseMiddleware<ManejadorErroresMidleware>();  
+
 
 if (app.Environment.IsDevelopment())
     {
     app.UseSwagger();
     app.UseSwaggerUI();
+
     }
 
 //app.UseHttpsRedirection();

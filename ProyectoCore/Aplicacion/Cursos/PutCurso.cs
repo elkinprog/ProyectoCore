@@ -29,9 +29,9 @@ namespace Aplicacion.Cursos
             public PutValidacion()
             {
                 RuleFor(x => x.CursoID).NotNull();
-                RuleFor(x => x.Titulo).NotNull().NotEmpty();
-                RuleFor(x => x.Descripcion).NotNull().NotEmpty();
-                RuleFor(x => x.FechaPublicacion).NotNull();
+                RuleFor(x => x.Titulo).NotNull().WithMessage("Titulo Requerido");
+                RuleFor(x => x.Descripcion).NotNull().WithMessage("Descripcion Requerida");
+                RuleFor(x => x.FechaPublicacion).NotNull().WithMessage("FechaPublicacion Requerida");
             }
         }
 

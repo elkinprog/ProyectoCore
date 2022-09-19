@@ -71,3 +71,4 @@ C:\Users\erojas\Documents\ProyectoCore\ProyectoCore\WebAPI\obj\Release\net6.0\We
 C:\Users\erojas\Documents\ProyectoCore\ProyectoCore\WebAPI\obj\Release\net6.0\WebAPI.genruntimeconfig.cache
 C:\Users\erojas\Documents\ProyectoCore\ProyectoCore\WebAPI\obj\Release\net6.0\ref\WebAPI.dll
 C:\Users\erojas\Documents\ProyectoCore\ProyectoCore\WebAPI\obj\Release\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\erojas\Documents\ProyectoCore\ProyectoCore\WebAPI\bin\Release\net6.0\Newtonsoft.Json.dll
