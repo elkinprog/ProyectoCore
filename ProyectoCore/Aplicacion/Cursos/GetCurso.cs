@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 using Dominio;
 using Persistencia;
 using Microsoft.EntityFrameworkCore;
+using Aplicacion.ManejadorErrores;
+using static Aplicacion.Cursos.GetIdCurso;
+using System.Net;
 
 namespace Aplicacion.Cursos
 {
@@ -26,6 +29,7 @@ namespace Aplicacion.Cursos
             {
                 var cursos = await _context.Curso.ToListAsync();
                 return cursos;
+
             }
          }
     }

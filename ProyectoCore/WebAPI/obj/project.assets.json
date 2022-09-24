@@ -2693,11 +2693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\erojas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\erojas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2714,8 +2714,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }

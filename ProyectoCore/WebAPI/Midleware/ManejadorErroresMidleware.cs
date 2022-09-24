@@ -33,7 +33,7 @@ namespace WebAPI.Midleware
                 object errores = null;
                 switch (ex)
                 {
-                    case ManejadorExcepciones me:
+                    case ExcepcionError me:
                         logger.LogError(ex, "manejador Error");
                         errores = me.Errores;
                         context.Response.StatusCode = (int)me.Codigo;

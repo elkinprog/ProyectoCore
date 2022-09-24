@@ -1,12 +1,15 @@
-﻿using Dominio;
+﻿using Aplicacion.ManejadorErrores;
+using Dominio;
 using FluentValidation;
 using MediatR;
 using Persistencia;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using static Aplicacion.Cursos.GetIdCurso;
 
 namespace Aplicacion.Cursos
 {
@@ -49,9 +52,13 @@ namespace Aplicacion.Cursos
                     FechaPublicacion = request.FechaPublicacion,
                     FotoPortada      = request.FotoPortada,
                 };
+
                 await _context.Curso.AddAsync(cursos, cancellationToken);
 
+
+
                var valor = await _context.SaveChangesAsync(cancellationToken);
+                throw new ExcepcionError(HttpStatusCode.OK, new { mensaje = "Se Ingreso curso" });
                 if (valor > 0) 
                 { 
                  return Unit.Value;    

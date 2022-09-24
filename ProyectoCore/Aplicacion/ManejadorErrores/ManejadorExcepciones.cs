@@ -7,17 +7,26 @@ using System.Threading.Tasks;
 
 namespace Aplicacion.ManejadorErrores
 {
-    public  class ManejadorExcepciones: Exception
+    public class ExcepcionError : Exception
     {
         public HttpStatusCode Codigo { get; }
-        public object Errores { get; }
-        public ManejadorExcepciones(HttpStatusCode codigo, object errores = null)
+        public object Errores   { get; }
+        public object OK        { get; }
+        public ExcepcionError(HttpStatusCode codigo, object Status = null)
         {
-            this.Codigo     = codigo;
-            this.Errores    = errores;
+            this.Codigo  = codigo;
+            this.Errores = Status;
         }
-
     }
-    
-    
+
+
+    public class ExcepcionOK : Exception
+    {
+        public HttpStatusCode response { get; }
+        public object OK { get; }
+        public ExcepcionOK(HttpStatusCode codigo, object OK = null)
+        { 
+           this.OK = OK;
+        }
+    }
 }

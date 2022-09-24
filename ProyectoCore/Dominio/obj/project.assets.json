@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\erojas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\obj\\",
+      "outputPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\erojas\\AppData\\Roaming\\NuGet\\NuGet.Config",

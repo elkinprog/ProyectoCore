@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using Aplicacion.ManejadorErrores;
+using FluentValidation;
 using FluentValidation.Validators;
 using MediatR;
 using Microsoft.AspNetCore.Rewrite;
@@ -6,6 +7,7 @@ using Persistencia;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -49,7 +51,7 @@ namespace Aplicacion.Cursos
                 var curso = await _context.Curso.FindAsync(new object?[] { request.CursoID }, cancellationToken: cancellationToken);
                 if(curso == null)
                 {
-                    throw  new Exception("El Curso no existe");
+                   throw new ExcepcionError(HttpStatusCode.NotFound, new { mensaje = "No se encontro el curso" });
                 }
 
                 curso.Titulo            = request.Titulo ??          curso.Titulo;
@@ -58,11 +60,12 @@ namespace Aplicacion.Cursos
                 curso.FotoPortada       = request.FotoPortada ??     curso.FotoPortada;
 
                 var resultado = await _context.SaveChangesAsync(cancellationToken);
+                throw new ExcepcionError(HttpStatusCode.OK, new { mensaje = "Se actualizo con exito" });
                 if (resultado>0)
                 {
                     return Unit.Value;
                 }
-                throw new Exception("NO se guardaronlos cambios");
+                throw new Exception("No se guardaronlos cambios");
             }
         }
     }

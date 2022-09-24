@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TzSl+eRorUV6XBrilkfvDwU01K5+ZaQdHxWOCbx62jj167OOHRi1NAIXOk/Yoa8G6Hrsy7TocQJamo630lX0hw==",
+  "dgSpecHash": "zkdRbbQ14D1a9Gv31/JhhA5kN9d3c2bSsQ6ONW+fCcdBZuyn4aYmPQKEGtkHuEVs578BPruaQ9mcItj2wYImwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erojas\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\erojas\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",

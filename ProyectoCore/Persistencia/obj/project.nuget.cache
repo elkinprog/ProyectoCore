@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zliDKgCH2M4BRiQ0Yc9X3FUPHAqCyUWODJSyC/6UNSdl3avwv8QbbIaURUTh660Y9kx/oTQEh02IZU1j0q0chQ==",
+  "dgSpecHash": "17bsQwHAvaFL5omBlUhGwGfBsrshgTTBF4ctBS75fLFa/8qhQLWG7k+bvqHJwtEv9YXsMk33l2tS+57xvu4jwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erojas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\erojas\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

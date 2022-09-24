@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\erojas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Aplicacion\\obj\\",
+        "outputPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erojas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\erojas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erojas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -135,14 +135,14 @@
         }
       }
     },
-    "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\erojas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erojas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -159,8 +159,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -216,14 +216,14 @@
         }
       }
     },
-    "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\erojas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erojas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -240,8 +240,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+              "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }

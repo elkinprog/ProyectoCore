@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj": {}
+    "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\erojas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erojas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\erojas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erojas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\erojas\\Documents\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\erojas\\3D Objects\\Pruebas\\ProyectoCore\\ProyectoCore\\Dominio\\Dominio.csproj"
               }
             }
           }
