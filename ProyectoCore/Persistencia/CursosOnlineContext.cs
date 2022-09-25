@@ -1,19 +1,19 @@
-﻿using Dominio;
-using Microsoft.EntityFrameworkCore;
+﻿using System;
+using Dominio;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Persistencia
-    {
+{
 
-    public class CursosOnlineContext : DbContext
-        {
+    public class CursosOnlineContext: IdentityDbContext<Usuarios>
+    {
 
             protected readonly IConfiguration Configuration;
 
@@ -39,5 +39,5 @@ namespace Persistencia
             public DbSet<CursoInstructor>? CursoInstructor { get; set; }
             public DbSet<Precio>? Precio { get; set; }
 
-        }
     }
+}

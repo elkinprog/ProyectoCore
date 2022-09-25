@@ -22,3 +22,15 @@ C:\Users\erojas\Documents\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\Dom
 C:\Users\erojas\Documents\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\refint\Dominio.dll
 C:\Users\erojas\Documents\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\Dominio.pdb
 C:\Users\erojas\Documents\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\ref\Dominio.dll
+C:\Users\erojas\3D Objects\Pruebas\ProyectoCore\ProyectoCore\Dominio\bin\Debug\net6.0\Dominio.deps.json
+C:\Users\erojas\3D Objects\Pruebas\ProyectoCore\ProyectoCore\Dominio\bin\Debug\net6.0\Dominio.dll
+C:\Users\erojas\3D Objects\Pruebas\ProyectoCore\ProyectoCore\Dominio\bin\Debug\net6.0\Dominio.pdb
+C:\Users\erojas\3D Objects\Pruebas\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\erojas\3D Objects\Pruebas\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erojas\3D Objects\Pruebas\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\erojas\3D Objects\Pruebas\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfo.cs
+C:\Users\erojas\3D Objects\Pruebas\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\erojas\3D Objects\Pruebas\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\Dominio.dll
+C:\Users\erojas\3D Objects\Pruebas\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\refint\Dominio.dll
+C:\Users\erojas\3D Objects\Pruebas\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\Dominio.pdb
+C:\Users\erojas\3D Objects\Pruebas\ProyectoCore\ProyectoCore\Dominio\obj\Debug\net6.0\ref\Dominio.dll

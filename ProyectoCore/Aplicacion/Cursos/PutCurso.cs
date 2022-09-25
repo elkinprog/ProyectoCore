@@ -61,7 +61,7 @@ namespace Aplicacion.Cursos
 
                 var resultado = await _context.SaveChangesAsync(cancellationToken);
                 throw new ExcepcionError(HttpStatusCode.OK, new { mensaje = "Se actualizo con exito" });
-                if (resultado>0)
+                if (resultado > 0)
                 {
                     return Unit.Value;
                 }
